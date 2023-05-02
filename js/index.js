@@ -25,14 +25,14 @@ numOne + numTwo / numThree * numFour;
 console.log(answer);
 
 //Exercise 3
-let timmy = 10;
-let susan = 25;
+let timmy = 10 - 0.15;
+let susan = 25 - 0.26;
 
+let Value = timmy + susan;
 
+console.log(Value);
 
 //Exercise 4
-
-
 let john = 100;
 let tim = 100;
 let alfie = 100;
@@ -45,4 +45,6 @@ console.log(average);
 
 updateMark = 7;
 
-console.log();
+average= average + updateMark;
+
+console.log(average);
